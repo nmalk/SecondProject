@@ -16,15 +16,19 @@ body {
     top: 45px;
 }
 .title {
-    position: relative;
-    z-index: 1;
+    background-image: url("../../images/welcomePage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    
 }
-
 h1  {
     background: transparent;
     border: transparent; 
     font-family: 'Tangerine', cursive;
-    font-size: 6.2rem !important;
+    font-size: 5.2rem !important;
     color: ivory;
 }
 .signup-form {
