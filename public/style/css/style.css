@@ -3,6 +3,19 @@
 }
 
 body {
+    background-image: url("../../images/photofunky.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.container {
+    position: inherit;
+    top: 45px;
+}
+.title {
     background-image: url("../../images/welcomePage.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -11,12 +24,6 @@ body {
     height: 100vh;
     
 }
-
-/* .title {
-    position: relative;
-    z-index: 1;
-} */
-
 h1  {
     background: transparent;
     border: transparent; 
@@ -24,6 +31,14 @@ h1  {
     font-size: 5.2rem !important;
     color: ivory;
 }
-
-
+.signup-form {
+    margin-top: 100px;
+}
+input.form-control {
+    color: #111;
+    padding: 0 5px !important;
+}
+input.form-control:focus {
+    background: #fff3;
+}
 
