@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/public/images/welcomePage.png") cover no-repeat;
+    position: absolute;
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+}
+
+h1  {
+    background: transparent;
+    border: transparent; 
+    font-family: 'Tangerine', cursive;
+    font-size: 6.2rem !important;
+    color: ivory;
+}
+
+
+
