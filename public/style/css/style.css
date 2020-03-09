@@ -3,10 +3,18 @@
 }
 
 body {
-    background-image: url("/public/images/welcomePage.png") cover no-repeat;
-    position: absolute;
+    background-image: url("../../images/photofunky.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 }
-
+.container {
+    position: inherit;
+    top: 45px;
+}
 .title {
     position: relative;
     z-index: 1;
@@ -19,6 +27,14 @@ h1  {
     font-size: 6.2rem !important;
     color: ivory;
 }
-
-
+.signup-form {
+    margin-top: 100px;
+}
+input.form-control {
+    color: #111;
+    padding: 0 5px !important;
+}
+input.form-control:focus {
+    background: #fff3;
+}
 
