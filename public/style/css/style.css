@@ -2,6 +2,19 @@
     box-sizing: border-box;
 }
 
+/* html {
+    background-size: cover;
+} */
+
+/* .home-bg .add-bg .donate-bg .wear-bg {
+    background-image: url("../../videos/Project2.m4v");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+} */
+
 body {
     /* background-image: url("../../images/photofunky.gif"); */
     background-image: url("../../images/welcomePage.png");
