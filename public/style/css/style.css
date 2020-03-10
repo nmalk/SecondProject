@@ -37,8 +37,14 @@ h1  {
     display: flex;
     flex: 7 !important;
 }
+.form-title {
+    color: var(--accent-color);
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
 .signup-form {
-    margin-top: 100px;
+    margin-top: 115px;
+    font-family: sans-serif;
 }
 .form-group label, .signup-form p {
     color: var(--accent-color) !important;
