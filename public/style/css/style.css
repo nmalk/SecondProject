@@ -6,7 +6,6 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     background-image: url("../../images/welcomePage.png");
     background-repeat: no-repeat;
@@ -14,13 +13,13 @@ body {
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    position: relative;
+    position: relative; 
 }
 .container {
     position: inherit;
     top: 50px;
 }
- .title {
+.title {
     position: relative;
     z-index: 1;
 } 
@@ -39,7 +38,7 @@ h1  {
 }
 .form-title {
     color: var(--accent-color);
-    font-size: 1.3em;
+    font-size: 1.4em;
     margin-bottom: 15px;
 }
 .signup-form {
@@ -70,4 +69,3 @@ input.form-control:focus {
 .signup-form p {
     margin-top: -40px;
 }
-
