@@ -8,6 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
 <link rel="stylesheet" href="./style/css/reset.css">
 <link href="./style/css/style.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Cinzel|Great+Vibes|Reenie+Beanie&display=swap" rel="stylesheet">
@@ -17,32 +18,35 @@
 <!-- Start of the Container. -->
 <div class="container">
     <div class="row title" style="text-align: center;">
-        <div class="col-lg-3">
+        <div class="col-lg-offset-2 col-lg-1">
         <img id="silhouette" style="height: 150px; width: 150px;" src="./images/dress_silhouette.png">
         </div>
         <div class="col-lg-9"><h1>Welcome to Your Closet</h1></div>
     </div>
         
     <div class="row signup-form">
-        <div class="col-lg-offset-3 col-lg-6" id="loginRow">
-            <h2 style="text-align: center">Login Form</h2>
-            <form class="login">
+        <div class="col-lg-offset-3 col-lg-6">
+            <h2 class="form-title">Login Form</h2>
+            <form class="signup">
                 <div class="form-group">
-                  <!-- <label for="exampleInputEmail1">Email address</label> -->
-                  <input type="email" class="form-control" id="email-input" placeholder="Email" aria-describedby="emailHelp">
+<!--                  <label for="exampleInputEmail1">Email address</label>-->
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" onfocus="this.placeholder = '';" onblur="if(this.placeholder == ''){this.placeholder = 'Email';}">
                 </div>
                 <div class="form-group">
-                  <!-- <label for="exampleInputPassword1">Password</label> -->
-                  <input type="password" class="form-control" id="password-input" placeholder="Password">
+<!--                  <label for="exampleInputPassword1">Password</label>-->
+                  <input type="password" class="form-control" id="exampleInputPassword" placeholder="Password" onfocus="this.placeholder = '';" onblur="if(this.placeholder == ''){this.placeholder = 'Password';}">
                 </div>
-                <button type="submit" class="btn btn-primary">Login</button>
-            </form>
-            <br>
-            <p>Or sign up <a href="/login">here</a></p>
+
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                </div>
+                <button type="submit" class="btn btn-primary col-lg-offset-10">Login</button>
+              </form>
+              <br />
+              <p>Or login <a href="/login">here</a></p>
         </div>
 
     </div>
-
 <!-- Start of the Login Form. -->
 <!-- <div class="row" >
 <div class="col-md-6 col-md-offset-3" id="loginRow" style="width:800px; position: relative; bottom: 300px;">
@@ -77,3 +81,4 @@
 </body>
 
 </html>
+
