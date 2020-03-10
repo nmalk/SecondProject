@@ -13,7 +13,7 @@ body {
 }
 .container {
     position: inherit;
-    top: 45px;
+    top: 50px;
 }
 .title {
     position: relative;
@@ -26,15 +26,35 @@ h1  {
     font-family: 'Tangerine', cursive;
     font-size: 6.2rem !important;
     color: ivory;
+    width: 800px;
 }
 .signup-form {
     margin-top: 100px;
+}
+.form-group label, .signup-form p {
+    color: #fff !important;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 3px 0 #26A69A;
 }
 input.form-control {
     color: #111;
     padding: 0 10px !important;
 }
 input.form-control:focus {
-    background: #fff6;
+    --white-a6: #fff6;
+    background: var(--white-a6);
+}
+.btn {
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+.btn:hover {
+    --btn-color: #027468;
+    background: var(--btn-color);
+}
+.signup-form p {
+    margin-top: -40px;
 }
 
