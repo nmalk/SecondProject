@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("../../images/photofunky.gif");
+    background-image: url("../../images/welcomePage.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -15,16 +15,18 @@ body {
     position: inherit;
     top: 50px;
 }
-.title {
+
+
+ .title {
     position: relative;
     z-index: 1;
-}
+} 
 
 h1  {
     background: transparent;
     border: transparent; 
     font-family: 'Tangerine', cursive;
-    font-size: 6.2rem !important;
+    font-size: 5.2rem !important;
     color: ivory;
     width: 800px;
 }
@@ -37,7 +39,7 @@ h1  {
     text-shadow: 1px 1px 3px 0 #26A69A;
 }
 input.form-control {
-    color: #111;
+    color: #fff;
     padding: 0 10px !important;
 }
 input.form-control:focus {
