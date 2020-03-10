@@ -32,9 +32,9 @@ h1  {
 }
 input.form-control {
     color: #111;
-    padding: 0 5px !important;
+    padding: 0 10px !important;
 }
 input.form-control:focus {
-    background: #fff3;
+    background: #fff6;
 }
 
