@@ -69,3 +69,31 @@ input.form-control:focus {
 .signup-form p {
     margin-top: -40px;
 }
+
+
+
+/* ******************************************************************************************************************* */
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
