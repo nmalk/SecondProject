@@ -57,6 +57,9 @@ input.form-control {
 input.form-control:focus {
     background: var(--white-a6);
 }
+input::placeholder {
+    color: wheat !important;
+}
 .btn {
     font-size: 1.1rem;
     font-style: normal;
